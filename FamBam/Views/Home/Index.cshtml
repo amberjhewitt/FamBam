@@ -1,0 +1,48 @@
+﻿@{
+    /**/
+
+    ViewBag.Title = "Index";
+}
+<style>
+    p {
+        color: black;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    h2 {
+        color: black;
+    }
+</style>
+
+
+<body style="background-image: url('../../Content/mormon-missionaries-riding-bikes-1178927-wallpaper.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover">
+    <div class="jumbotron" style="background: rgba(194,159,139,.1); height: 175px; padding-top: 5px">
+        <div>
+            <h1 style=" text-align: center; margin-top: 1px; padding-top:3px">My Family</h1>
+            <p class="lead" style="text-align:center">Families Are Forever</p>
+            <p style="text-align: center"><a class="btn btn-default" href='@Url.Action("Index", "Families")'>Get Started &raquo;</a></p>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+    <br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="row" style="background-color: #F3E5CB; text-align: center">
+        <div class="col-md-4">
+            <h2>Family</h2>
+            <p>
+                See all my family members!
+            </p>
+            <p><a class="btn btn-default" href='@Url.Action("Index", "Families")'>View Missions &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Learn About Us</h2>
+            <p>Learn more about what we like to do!</p>
+            <p><a class="btn btn-default" href='@Url.Action("Index", "Hobbies")'>About Us &raquo;</a></p>
+        </div>
+    </div>
+</body>
